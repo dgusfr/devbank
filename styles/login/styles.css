@@ -1,0 +1,65 @@
+.principal {
+  min-height: 100vh; /* Define a altura mínima como 100% da altura da viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa; /* Cor de fundo para visualização */
+}
+
+.login-container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.login-title {
+  font-size: 28px;
+  text-align: center;
+  color: #007bff; /* Azul mais vibrante */
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.login-input {
+  box-sizing: border-box; /* Adiciona a largura e altura à largura total, incluindo preenchimento e bordas */
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ced4da; /* Cinza mais suave */
+  border-radius: 6px;
+  width: calc(
+    100% - 24px
+  ); /* Leva em consideração o preenchimento total (12px em cada lado) */
+}
+
+.login-button {
+  box-sizing: border-box; /* Adiciona a largura e altura à largura total, incluindo preenchimento e bordas */
+  background-color: #007bff;
+  color: #fff;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  width: calc(
+    100% - 28px
+  ); /* Leva em consideração o preenchimento total (14px em cada lado) */
+}
+
+.login-button:hover {
+  background-color: #0056b3; /* Tom mais escuro de azul */
+}

@@ -1,0 +1,18 @@
+{
+  "name": "devbank",
+  "version": "1.0.0",
+  "description": "Banco virtual fictício - DevBank",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/monibank.git"
+  },
+  "author": "Diego Franco",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
