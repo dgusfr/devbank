@@ -3,15 +3,10 @@
 Este projeto tem como objetivo a criação de um site de um banco ficticio onde o cliente pode abrir sua conta (apos enviar os dados e uma foto),
 a conta é aprovada na hora e o cliente pode entrar na tela de acesso e fazer login.
 
-### Ferramentas
-
-Esse codigo utiliza como ferramenta principal o localStorage para armezenar os dados do usurio no navegador,
-e depois do cadastro ler esses dados para realização do login.
-
-#### Seja bem Vindo ao nosso Banco:
+## Logo
 
 <p align="center">
-  <img width="400" src="img/proj1.png" alt="banner1">
+  <img width="600" src="img/proj1.png" alt="banner1">
 </p>
 
 #### Login:
@@ -20,7 +15,41 @@ e depois do cadastro ler esses dados para realização do login.
   <img src="img/proj2.png" alt="banner2">
 </p>
 
-### Funcionalidades Principais:
+## Sumário
+
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Status](#status)
+- [Descrição](#descrição)
+- [Funcionalidades](#funcionalidades)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Autor](#autor)
+
+## Tecnologias Utilizadas
+
+<div style="display: flex; flex-direction: row;">
+  <div style="margin-right: 20px; display: flex; justify-content: flex-start;">
+    <img src="img/html.png" alt="Logo HTML" width="100"/>
+  </div>
+  <div style="display: flex; justify-content: flex-center;">
+    <img src="img/css.png" alt="Logo CSS" width="100"/>
+  </div>
+  <div style="display: flex; justify-content: flex-end;">
+    <img src="img/js.png" alt="Logo CSS" width="100"/>
+  </div>
+</div>
+
+## Status
+
+![Em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge)
+
+<!-- ![Concluído](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge) -->
+
+## Descrição
+
+Esse codigo utiliza como ferramenta principal o localStorage para armezenar os dados do usurio no navegador,
+e depois do cadastro ler esses dados para realização do login.
+
+### Funcionalidades:
 
 1. **Abrir Conta:**
 
@@ -30,13 +59,6 @@ e depois do cadastro ler esses dados para realização do login.
 2. **Acessar Conta:**
    - Utilize o login (e-mail) e senha fornecidos durante a abertura da conta.
 
-### Tecnologias Utilizadas:
-
-- **HTML:** Estruturação da página.
-- **CSS:** Estilização e design responsivo.
-- **JavaScript:** Interação dinâmica e validações.
-- **LocalStorage:** Armazenamento local para dados de conta (e-mail e senha).
-
 ### Estrutura do Projeto:
 
 - **index.html:** Página inicial com opções para abrir ou acessar uma conta.
@@ -45,4 +67,7 @@ e depois do cadastro ler esses dados para realização do login.
 - **styles/:** Pasta contendo os arquivos CSS para estilização.
 - **js/:** Pasta contendo o script JavaScript para interações dinâmicas.
 
+## Autor
+
+Desenvolvido por Diego Franco.
 _Nota: Este projeto é puramente fictício e não está associado a nenhum banco real._
