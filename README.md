@@ -3,6 +3,8 @@
 Este projeto tem como objetivo a criação de um site de um banco ficticio onde o cliente pode abrir sua conta (apos enviar os dados e uma foto),
 a conta é aprovada na hora e o cliente pode entrar na tela de acesso e fazer login.
 
+_Nota: Este projeto é puramente fictício e não está associado a nenhum banco real._
+
 ## Logo
 
 <p align="center">
@@ -70,4 +72,4 @@ e depois do cadastro ler esses dados para realização do login.
 ## Autor
 
 Desenvolvido por Diego Franco.
-_Nota: Este projeto é puramente fictício e não está associado a nenhum banco real._
+
